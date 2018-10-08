@@ -1,0 +1,29 @@
+[
+  {
+    "_id": {
+      "$oid": "57029ed4795118be119cc43d"
+    },
+    "first_name": "John",
+    "last_name": "Doe",
+    "number": "5555555555",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "57029ed4795118be119cc440"
+    },
+    "first_name": "Fred",
+    "last_name": "Johnson",
+    "number": "5551234567",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "57029ed4795118be119cc437"
+    },
+    "first_name": "Jed",
+    "last_name": "Glow",
+    "number": "5555555555",
+    "__v": 0
+  }
+]
