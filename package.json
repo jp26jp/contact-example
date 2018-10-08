@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node server.js",
     "build": "next build",
+    "build-db": "mongoimport --db contact-example --collection contacts --type=json --jsonArray --file ./seed-data/contacts.json",
     "start": "NODE_ENV=production node server.js"
   },
   "keywords": [],
