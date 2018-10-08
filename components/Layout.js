@@ -5,13 +5,13 @@ const Layout = (props) =>
     <div>
         <div>
             <Link href="/contact/John">
-                <a style={linkStyle}>John</a>
-            </Link>
+                <a>John</a>
+            </Link><br/>
             <Link href="/contact/Jed">
-                <a style={linkStyle}>Jed</a>
-            </Link>
+                <a>Jed</a>
+            </Link><br/>
             <Link href="/contact/Fred">
-                <a style={linkStyle}>Fred</a>
+                <a>Fred</a>
             </Link>
         </div>
         {props.children}

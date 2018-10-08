@@ -16,6 +16,7 @@ app.prepare()
    .then(() => {
        const server = express()
     
+       // component route
        server.get("/contact/:id", (req, res) => {
            const actualPage = "/contact"
            const queryParams = {id: req.params.id}
